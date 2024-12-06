@@ -20,7 +20,7 @@ import io.ipgeolocation.api.IPGeolocationAPI;
 
                 txtView_API = findViewById(R.id.txtView_API);
 
-                IPGeolocationAPI api = new IPGeolocationAPI("5452bb8c16cc40de92915757742ce9a8");
+                IPGeolocationAPI api = new IPGeolocationAPI("");
 
                 GeolocationParams geoParams = new GeolocationParams();
                 geoParams.setIPAddress("19.180.160.106");
